@@ -1,0 +1,25 @@
+<rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:admin="http://webns.net/mvcb/">
+<foaf:PersonalProfileDocument rdf:about="">
+  <foaf:maker rdf:resource="#me"/>
+  <foaf:primaryTopic rdf:resource="#me"/>
+  <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
+  <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
+</foaf:PersonalProfileDocument>
+<foaf:Person rdf:ID="me">
+<foaf:name>Hafeez Khan</foaf:name>
+<foaf:title>Mr</foaf:title>
+<foaf:givenname>Hafeez</foaf:givenname>
+<foaf:family_name>Khan</foaf:family_name>
+<foaf:nick>Hafeez</foaf:nick>
+<foaf:mbox_sha1sum>aae5de4b434cd3b6d87ba6212e7635d430254ff8</foaf:mbox_sha1sum>
+<foaf:homepage rdf:resource="www.hafeezkhan.com"/>
+<foaf:depiction rdf:resource="None"/>
+<foaf:phone rdf:resource="tel:561-452-3656"/>
+<foaf:workplaceHomepage rdf:resource="www.hafeezwork.com"/>
+<foaf:workInfoHomepage rdf:resource="Looking For"/>
+<foaf:schoolHomepage rdf:resource="www.fau.edu"/></foaf:Person>
+</rdf:RDF>
